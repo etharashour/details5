@@ -1,0 +1,740 @@
+  *{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family:'open sans' sans-serif;
+font-optical-sizing: auto;
+
+
+    }
+  
+ main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+ background-color: black;
+
+ }
+ .hamburger {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+ 
+   span ,  p , i , h3  {
+    color: white;
+    font-size:   20px;
+    line-height: 1.5;
+  }
+  i{
+    margin-right:   10px;
+  }
+  
+  h1{
+    color: white;
+    font-size:    25px;
+    line-height: 1.5;
+  }
+ aside{
+  width:      20%;
+  height: 100%;
+   background-color: black;
+  display: block;
+  position: fixed;
+ border-right:  0.5px rgb(169, 168, 168) solid;
+ }
+ aside > h1 {
+  margin :20px  60px;
+  color: white;
+ }
+ aside > .aside {
+  margin :  40px  60px;
+  
+ }
+ .aside > div{
+  margin-bottom: 30px;
+ }
+ .aside > div > span:hover{
+  background-color: rgb(36, 36, 36);
+  padding:   10px;
+  border-radius:  20px;
+ }
+ .div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ section{
+  width: 100%;
+   margin-left:   300px    ;
+ }
+ .div1 > .img{
+  width:    300px ;
+  height:     300px;
+  border:  10px solid rgb(40, 39, 39);
+  border-radius: 50%;
+   margin :  100px 100px 0px 0px;
+    
+  background-image: url(./logo/248933.jpg);
+  background-position: center;
+  background-size: cover;
+ }
+ .img > img{
+   width:      180px ;
+  height:     180px;
+  border-radius: 50%;
+ 
+ }
+ .div2{
+  margin-top:  70px;
+ padding-left:  40px;
+ }
+  
+ .follow , .follow1{
+  display: flex;
+  
+  align-items: center;
+ }
+ .follow1{
+  display: none;
+ }
+ .follow > p{
+  margin-right: 50px ;
+ }
+  .follow > p > span{
+   margin-left:  5px;
+   
+   font-weight: bold;
+   color: rgb(99, 97, 97);
+  }
+  .thread{
+    background-color: rgb(40, 39, 39) ;
+    width: fit-content;
+    padding:  8px;
+    border-radius:  20px;
+  }
+  .highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px  ;
+    width: 100%;
+    gap: 10px;
+  }
+.highlight > button{
+  margin-top: 20px;
+  width:   20%;
+  height:  40px;
+  border-radius: 7px;
+ border: none;
+  
+}
+   
+  .sec2{
+    width: 100%;
+  }
+  .posts{
+    width: 100%;
+  }
+  .posts > div > img{
+    width:   300px;
+    height: 400px;
+  }
+  .posts > div > img:hover{
+    filter: brightness(  0.7 );
+  }
+  .list{
+    width:   90%;
+    margin:   60px 20px  20px   60px;
+    border-top: 0.5px solid rgb(40, 39, 39);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  
+  .posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+ 
+  }
+  .posts > div{
+    width:  31%;
+    margin:  2px;
+    
+    margin-bottom: 0px;
+  }
+  .posts > div > img{
+    width:  100%;
+    height:  500px;
+     border-radius:   2px;
+     filter: brightness(0.7);
+  }
+  
+  @media  (max-width:1440px )   {
+    main{
+      width: 100%;
+    }
+    .aside{
+      width:    30%;
+     
+      
+    }
+ section{
+  width:  70%;
+ display: flex;
+ justify-content: center;
+ margin-left:   230px;
+ }
+ span ,  p , i , h3 , span {
+    color: white;
+    font-size:     15px;
+  margin: 3px;
+  }
+  
+   h1{
+    color: white;
+    font-size:     15px;
+    line-height: 1.5;
+  }
+  aside > h1 {
+  margin :     40px       60px;
+  color: white;
+ }
+  
+ .aside > div{
+  margin-bottom:      30px;
+  
+ }
+  
+ .aside > div > span:hover{
+  font-size: 15px;
+  margin: 3px;
+  line-height: 1.5;
+  background-color: rgb(36, 36, 36);
+  padding:      4px;
+  border-radius:  20px;
+ }
+ .div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ section{
+  width:  80%;
+    
+ }
+ .div1 > .img{
+  width:      200px ;
+  height:         200px;
+  border:   5px solid rgb(40, 39, 39);
+  border-radius:   50%;
+   margin :    70px  70px 0px 0px;
+  background-image: url(./logo/248933.jpg);
+  background-position: center;
+  background-size: cover;
+ }
+ .div2{
+  margin-top:   50px;
+ }
+  
+ .follow{
+  display: flex;
+  
+  align-items: center;
+ }
+ .follow > p{
+  margin-right:    50px ;
+ }
+  .follow > p > span{
+   margin-left:  7px;
+   
+   font-weight: bold;
+   color: rgb(99, 97, 97);
+  }
+  .thread{
+    background-color: rgb(40, 39, 39) ;
+    width: fit-content;
+    padding:    6px;
+    border-radius:   10px;
+  }
+  .highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .img2{
+     
+  background-image: url(./content/Screenshot_20250717_003014.jpg );
+   
+  }
+   
+ 
+.img3 {
+      
+  background-image: url(./content/man-in-neon-lights-wall-canvas-12.jpg  );
+  
+  }
+   .img2 ,.img3 ,.img4 , .img5 , .img6{
+     width:     80px ;
+  height:     80px;
+  border:  5px solid rgb(40, 39, 39);
+  border-radius: 50%;
+   margin :     70px   20px 0px    30px;
+  
+  background-position: center;
+  background-size: cover;
+   filter: brightness(0.6 );
+  }
+  .img4{
+    background-image: url(./content/11-425.jpg);
+  }
+  .img5{
+    background-image: url(./content/643f6ab470655c62da29cd25-surreal-digital-paintings-fantasy.jpg);
+  }
+  .img6{
+    background-image: url(./content/IMG-20250716-WA0196.jpg);
+  }
+   
+  .highlight1 > h3 , .highlight2 > h3 , .highlight3 > h3 , .highlight4 > h3  , .highlight5  > h3 {
+    margin-left:      60px;
+  }
+   .highlight4 > h3{
+    margin-left:   40px;
+   } 
+  .sec2{
+    width: 100%;
+  }
+  .posts{
+    width:   80%;
+    margin-left:  15px;
+  }
+  .posts > div > img{
+    width:      160px;
+    height:    280px;
+  }
+  .posts > div > img:hover{
+    filter: brightness(  0.7 );
+  }
+  .list{
+    width:   90%;
+    margin:    50px  20px   20px    50px;
+    border-top: 0.5px solid rgb(40, 39, 39);
+    padding-top:   20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  
+  .posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+ 
+  }
+  .posts > div{
+    width:      28%;
+    margin:  2px;
+    
+    margin-bottom: 0px;
+  }
+  .posts > div > img{
+    width:  100%;
+    height:    350px;
+     border-radius:   2px;
+     filter: brightness(0.7);
+  }
+  }
+   @media (max-width:    768px ){
+    .main{
+       width: 100%;
+    }
+    .aside{
+      width:     20%;
+   }
+ section{
+  width:  80%;
+  }
+ span ,  p , i , h3 , span {
+    color: white;
+    font-size:           13px;
+  margin: 3px;
+  }
+   .highlight1 > h3 , .highlight2 > h3 , .highlight3 > h3 , .highlight4 > h3  , .highlight5  > h3 {
+    margin-left:        15px;
+  }
+   h1{
+    color: white;
+    font-size:      20px;
+    line-height: 1.5;
+  }
+  aside > h1 {
+  margin :     30px  40px 0px    40px;
+  color: white;
+ }
+ 
+ .aside > div{
+ width: fit-content;
+ 
+ }
+  .aside > div > span{
+ margin: 0px;
+ padding: 0px;
+ 
+ }
+  .aside > div > span > i{
+ margin: 0px;
+ padding: 0px;
+ font-size: 15px;
+ }
+ .aside > div > span:hover{
+  background-color: rgb(36, 36, 36);
+  padding:      4px;
+  border-radius:  20px;
+ }
+ .div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ section{
+  width:   70%;
+   margin-left:       180px    ;
+ }
+ .div1 > .img{
+  width:      130px ;
+  height:         130px;
+  border:    7px solid rgb(40, 39, 39);
+  border-radius:   50%;
+   margin :    40px   40px 0px 0px;
+  background-image: url(./logo/248933.jpg);
+  background-position: center;
+  background-size: cover;
+ }
+ .div2{
+  margin-top:   35px;
+ }
+  
+ .follow{
+  display: flex;
+  
+  align-items: center;
+ }
+ .follow > p{
+  margin-right:   10px ;
+ }
+  .follow > p > span{
+   margin-left:  5px;
+   
+   font-weight: bold;
+   color: rgb(99, 97, 97);
+  }
+  .thread{
+    background-color: rgb(40, 39, 39) ;
+    width: fit-content;
+    padding:   6px;
+    border-radius:   10px;
+  }
+  .highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .img2{
+     
+  background-image: url(./content/Screenshot_20250717_003014.jpg );
+   
+  }
+   
+ 
+.img3 {
+      
+  background-image: url(./content/man-in-neon-lights-wall-canvas-12.jpg  );
+  
+  }
+   .img2 ,.img3 ,.img4 , .img5 , .img6{
+     width:    40px ;
+  height:      40px;
+  border:  3px solid rgb(40, 39, 39);
+  border-radius: 50%;
+   margin :     80px    35px 0px    35px;
+  
+  background-position: center;
+  background-size: cover;
+   filter: brightness(0.6 );
+  }
+  .img4{
+    background-image: url(./content/11-425.jpg);
+  }
+  .img5{
+    background-image: url(./content/643f6ab470655c62da29cd25-surreal-digital-paintings-fantasy.jpg);
+  }
+  .img6{
+    background-image: url(./content/IMG-20250716-WA0196.jpg);
+  }
+   
+  .highlight1 > h3 , .highlight2 > h3 , .highlight3 > h3 , .highlight4 > h3  , .highlight5  > h3 {
+    margin-left:     47px;
+  }
+   .highlight4 > h3{
+    margin-left:   25px;
+   } 
+  .sec2{
+    width: 100%;
+  }
+  .posts{
+    width: 100%;
+  }
+  .posts > div > img{
+    width:    200px;
+    height:  250px;
+  }
+  .posts > div > img:hover{
+    filter: brightness(  0.7 );
+  }
+  .list{
+    width:   90%;
+    margin:    20px  7px    7px    20px;
+    border-top: 0.5px solid rgb(40, 39, 39);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  
+  .posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+ 
+  }
+  .posts > div{
+    width:   31%;
+    margin:  2px;
+    
+    margin-bottom: 0px;
+  }
+  .posts > div > img{
+    width:  100%;
+    height:  250px;
+     border-radius:   2px;
+     filter: brightness(0.7);
+  }
+  }
+  @media (max-width:480px    ){
+   main{
+    flex-direction: column;
+
+   }
+   .hamburger {
+    display: block;
+    color: aliceblue;
+  }
+ aside{
+  transform: translate(-100%);
+  width:  200px;
+ }
+ aside.active{
+  transform:  translateX(0);
+ }
+ section{
+  margin-left: 0px;
+  padding-top: 60px;
+width: 100%;
+ }
+  span ,  p , i , h3 , span {
+    color: white;
+    font-size:           13px;
+  margin: 3px;
+  }
+   
+   h1{
+    color: white;
+    font-size:      20px;
+    line-height: 1.5;
+  }
+  aside > h1 {
+  margin :     30px  40px 0px    40px;
+  color: white;
+ }
+ 
+ .aside > div{
+ width: fit-content;
+ 
+ }
+  .aside > div > span{
+ margin: 0px;
+ padding: 0px;
+ 
+ }
+  .aside > div > span > i{
+ margin: 0px;
+ padding: 0px;
+ font-size: 15px;
+ }
+ .aside > div > span:hover{
+  background-color: rgb(36, 36, 36);
+  padding:      4px;
+  border-radius:  20px;
+ }
+ .div1{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding:  20px;
+ }
+ 
+ section{
+  width:  100%;
+ 
+ }
+ .div1 > .img{
+  width:      100px ;
+  height:         100px;
+  border:    5px solid rgb(40, 39, 39);
+  border-radius:   50%;
+   margin :    40px   40px 0px 0px;
+  background-image: url(./logo/248933.jpg);
+  background-position: center;
+  background-size: cover;
+ }
+ .div2{
+  margin-top:   35px;
+  margin-right:  10px;
+  padding-left: 10px;
+ }
+  .follow1{
+    display: flex;
+  }
+  .logo21{
+    display: flex;
+    gap: 20px;
+  }
+ .follow{
+  display: none;
+ }
+ .follow > p{
+  margin-right:   10px ;
+ }
+  .follow > p > span{
+   margin-left:  5px;
+   
+   font-weight: bold;
+   color: rgb(99, 97, 97);
+  }
+  .thread{
+    background-color: rgb(40, 39, 39) ;
+    width: fit-content;
+    padding:   6px;
+    border-radius:   10px;
+  }
+  .highlight{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .highlight >  button{
+    width:  45%;
+  }
+  .img2{
+     
+  background-image: url(./content/Screenshot_20250717_003014.jpg );
+   
+  }
+   
+ 
+.img3 {
+      
+  background-image: url(./content/man-in-neon-lights-wall-canvas-12.jpg  );
+  
+  }
+   .img2 ,.img3 ,.img4 , .img5 , .img6{
+     width:     40px ;
+  height:      40px;
+  border:  3px solid rgb(40, 39, 39);
+  border-radius: 50%;
+   margin :    40px     10px 0px    10px;
+  
+  background-position: center;
+  background-size: cover;
+   filter: brightness(0.6 );
+  }
+  .img4{
+    background-image: url(./content/11-425.jpg);
+  }
+  .img5{
+    background-image: url(./content/643f6ab470655c62da29cd25-surreal-digital-paintings-fantasy.jpg);
+  }
+  .img6{
+    background-image: url(./content/IMG-20250716-WA0196.jpg);
+  }
+   
+  .highlight1 > h3 , .highlight2 > h3 , .highlight3 > h3 , .highlight4 > h3  , .highlight5  > h3 {
+    margin-left:     47px;
+  }
+   .highlight4 > h3{
+    margin-left:   25px;
+   } 
+  .sec2{
+    width: 100%;
+  }
+  .posts{
+    width:  90%;
+  
+  }
+  .posts > div > img{
+    width:   50px;
+    height:  120px;
+  }
+  .posts > div > img:hover{
+    filter: brightness(  0.7 );
+  }
+  .list{
+    width:   90%;
+    margin:    20px  7px    7px    0px;
+    border-top: 0.5px solid rgb(40, 39, 39);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-left: 40px;
+  }
+  
+  .posts{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+flex-wrap: wrap;
+ padding: 20px;
+  }
+  .posts > div{
+    width:   31%;
+    margin:  2px;
+    
+    margin-bottom: 0px;
+  }
+  .posts > div > img{
+    width:  100%;
+    height:   200px;
+     border-radius:  5px;
+     filter: brightness(0.7);
+  }
+  }

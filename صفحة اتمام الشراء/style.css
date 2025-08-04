@@ -1,0 +1,71 @@
+body{
+ background-image: url(./صورة\ واتساب\ بتاريخ\ 2025-07-16\ في\ 05.56.49_9e94e9ee.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+  
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  300px;
+    direction: rtl;
+}
+   .done{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+     background-color: rgba(red, green, blue, alpha);
+     border-radius:  40px;
+     box-shadow:    2px   2px     10px  10px   rgba(22, 1, 15, 0.334);
+}
+h1{
+    margin-right:  20px;
+}
+h1 , span{
+    
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+button{
+    margin-top:  60px ;
+    margin-right: 30px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+     background-color: rgba(red, green, blue, alpha);
+     box-shadow:     1px    3px      12px  10px  rgba(26, 1, 18, 0.305);
+     
+}
+@media (max-width:1024px) {
+   section{
+   width: 100% ;
+    margin-top:  160px;
+  
+}
+button{
+  
+    margin-right:  23px;
+    
+}
+}
+ @media (max-width: 768px) {
+body{
+ background-image: url(./صورة\ واتساب\ بتاريخ\ 2025-07-16\ في\ 05.56.49_9e94e9ee.jpg);
+ background-position: center;
+ background-size:  contain;
+ background-repeat: repeat;
+  
+}
+    section{
+        margin-top:  300px;
+    }
+     
+}
+ 
+ 
