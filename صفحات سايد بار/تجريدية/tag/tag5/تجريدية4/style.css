@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+font-family:'cairo' sans-serif;
+background-color: rgb(232, 230, 231);
+direction: ltr;
+
+}
+
+.container{
+       display: flex;
+       flex-direction: row-reverse;
+       max-width: 1000px;
+       height: 600px;
+       margin: 70px auto ;
+    background-color: rgb(244, 203, 242);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0, 0, 0.1)
+}
+.details{
+    
+    flex: 1;
+    padding: 50px;
+}
+.soso{
+    
+    flex: 1;
+    background-color: rgb(244, 203, 242);
+    padding: 15px;
+     
+}
+.soso img{
+  height: 570px;
+   width:500px;
+    border-radius: 8px;
+   
+    
+}
+.details h1{
+    
+margin-bottom: 15px;
+    font-size: 50px;
+    color: #060606;
+}
+.description{
+    
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.rating{
+    
+    font-size: 20px;
+    color: rgb(4, 4, 4);
+    margin-bottom: 20px;
+}
+.sizes{
+   
+    margin-bottom: 20px;
+}
+.sizes label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: black;
+}
+.sizes select{
+    
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid#ccc;
+}
+.price{
+   
+    font-size: 20px;
+    color: #000;
+    margin-bottom:25px;
+}
+.solly{
+   
+    background-color:  rgb(245, 105, 189);
+    color: white;
+    padding: 12 25px;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+   
+}
+.content{
+    margin-left: 15px;
+}
+
+.solly:hover{
+    background-color:  lch(58.15% 79.07 344.77);
+    transform: scale(1.05);
+}
+.soso img::view-transition{
+transform: 0.9 ease;
+    border: 3px solid #979a9d;
+}
+.soso img:hover{
+transform: translateY(-10px);
+box-shadow: 0 20px 40px;
+}
